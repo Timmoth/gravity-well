@@ -9,7 +9,7 @@ import { MeshTransmissionMaterial, OrbitControls } from "@react-three/drei";
 
 export function Start() {
   createRoot(document.getElementById("root") as HTMLElement).render(
-    <Canvas camera={{ position: [0, 10, 10] }} dpr={[1, 2]}>
+    <Canvas camera={{ position: [0, 5, 20] }} dpr={[1, 2]}>
       <color attach="background" args={["black"]} />
       <ambientLight intensity={1.0} />
       <Floor />
